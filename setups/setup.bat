@@ -1,3 +1,4 @@
-echo off
+@echo off
 
-pip install discord.py
+py -3 -m pip install -U discord.py
+py -3 -m pip install -U discord.py[voice]
